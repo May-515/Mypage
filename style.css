@@ -106,7 +106,6 @@ body {
     font-size: 4rem;
     color: white;
     text-align: right;
-    padding-top: 5rem;
 }
 
 #aboutme h2{
@@ -225,6 +224,10 @@ body {
         margin-top: 10px;
         margin-bottom: 10px;
     }
+
+    .text-center p{
+        padding-top: 5rem;
+    }
     }
 
     /* tablet  */
@@ -234,12 +237,17 @@ body {
         margin-top: 10px;
         margin-bottom: 10px;
     }
+    .text-center p{
+        padding-top: 3rem;
+    }
     }
 
     /* smartPhone */
     @media screen and (max-width: 640px) {
     .text-center p{
         font-size: 15px;
+        padding-top: 3rem;
+
     }
     #skills i{
         font-size: 4em;
@@ -247,6 +255,7 @@ body {
         margin-bottom: 10px;
     }
     }
+
 
 
 
